@@ -39,3 +39,4 @@ console.log(new_arr.sort())
 console.log(new_arr.reverse())
 let arr3=["o","P"]
 console.log(arr3.join("-"))
+console.log(arr3)
