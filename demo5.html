@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <img src="images/krishna.jpeg" width="150" height="150" alt="" id="img1" onclick="changeImg()">
+<script>
+    let path1="file:///C:/Users/Sudeep/Desktop/Expertzlabs/images/eagle.png"
+    let path2="file:///C:/Users/Sudeep/Desktop/Expertzlabs/images/krishna.jpeg"
+    function changeImg()
+    {
+        if(document.getElementById("img1").src==path2)
+        {
+            document.getElementById("img1").src=path1
+        }
+        else{
+            document.getElementById("img1").src=path2
+        }
+        console.log(document.getElementById("img1").src)
+        
+    }
+</script>
+</body>
+</html>

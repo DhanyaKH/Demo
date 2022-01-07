@@ -1,0 +1,36 @@
+.headercls{
+    top: auto;
+    border-width: 40px;
+    background-color: rgb(25, 180, 180);
+    width: 100%;
+
+}
+.headercls a{
+    box-sizing: content-box;
+        float: right;
+        display: flexbox;
+        color: rgb(141, 8, 8);
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: underline;
+        font-size: 17px;
+        border-bottom: 3px solid transparent;
+     }
+footer{
+    background-color:rgb(25, 180, 180);
+  padding: 10px;
+  text-align: center;
+  color: rgb(173, 15, 15);
+  bottom: auto;
+  width: 100%;
+}
+
+  
+article {
+    /*float: left;*/
+    padding: 100px;
+    width: 90%;
+    background-color: #f5bebe;
+    height: 300px; 
+  }
+

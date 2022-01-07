@@ -1,0 +1,23 @@
+#thead1{
+    background-color: grey;
+}
+#thead1:hover{
+    background-color: green;
+}
+.tbody1:nth-child(even){
+    background-color: yellow;
+}
+.tbody1:hover:nth-child(odd){
+    background-color: blue;
+}
+table{
+    border-collapse: collapse;
+    border-color: rgb(255, 0, 85);
+    text-align: center;
+}
+.list1{
+    list-style-type: circle;
+}
+li{
+    display: inline;
+}

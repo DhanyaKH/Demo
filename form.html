@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="demo.html" >
+        <fieldset>
+            <legend>REGISTRATION FORM</legend>
+            
+            <div>
+                <label for="">FIRST NAME</label>
+            </div>
+                <div>   <input type="text" name="fname" required minlength="3" maxlength="10">
+
+                </div>
+            <div>
+                <label for="">MIDDLE NAME</label>
+            </div>
+            <div>
+                <input type="text" name="mname">
+            </div>
+            <div>
+                <label for="">LAST NAME</label>
+            </div>
+            <div>
+                <input type="text" name="lname">
+            </div>
+            <div>
+                <label for="">Email id</label>
+            </div>
+            <div>
+                <input type="email" value="" placeholder="enter your email id">
+            </div>
+            <div>
+                <label for="">passwod</label>
+            </div>
+            <div>
+                <input type="password" required>
+            </div>
+            <div>
+                <label for="">Date of birth</label>
+            </div>
+            <div>
+                <input type="date" name="dob">
+            </div>
+            <div>
+                <label for="">Age</label>
+            </div>
+            <div>
+                <input type="number" name="age" min="18" max="35">
+            </div>
+            <div>
+                <label for="">Telephone Number</label>
+            </div>
+            <div>
+                <input type="tel" name="telno" >
+            </div>
+            <div>
+                <label for="">Gender</label>
+            </div>
+            <div>
+                FEMALE<input type="radio" name="gender" value="f">
+            </div>
+            <div>
+                MALE<input type="radio" name="gender" value="m">
+            </div>
+            <div>
+                <label for="">State</label>
+            </div>
+            <div>
+                <select name="state" id="">
+                    <option value="kl" selected>kerala</option>
+                    <option value="kr">karnataka</option>
+                    <option value="tn">TN</option>
+                </select>
+            </div>
+            <div>
+                <label for="">Courses</label>
+            </div>
+            <div>
+                <input type="text" list="courselist">
+                <datalist id="courselist">
+                    <option value="data science"></option>
+                    <option value="data analytics"></option>
+                    <option value="data mining"></option>
+                </datalist>
+            </div>
+            <div>
+                <label for="">Upload file</label>
+            </div>
+            <div>
+                <input type="file" id="fileup" name="fileup">
+            </div>
+            <div>
+                <label for="">Hobbies</label>
+            </div>
+            <div>
+                Dancing<input type="checkbox" name="hobby1" value="dancing">
+                Singing<input type="checkbox" name="hobby2" value="singing">
+                Cooking<input type="checkbox" name="hobby3" value="cooking">
+            </div>
+            <br><br>
+              <input type="submit" value="Sign up">  
+              <input type="reset" value="Reset">       
+            
+        </fieldset>
+    </form>
+</body>
+</html>

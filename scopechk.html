@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    Number1<input type="text" id="num1">
+    Number2<input type="text" id="num2">
+   Result<input type="text" id="res">
+    <button onclick="getResult()" id="b1">ADD</button>
+    <!--<input type="text" id="uname" onblur="getName()"> -->
+    <script>
+        function getResult()
+        {
+            let n1=parseFloat( document.getElementById("num1").value)
+            let n2=parseFloat(document.getElementById("num2").value)
+            var r
+            //console.log("r====",r)
+            document.getElementById("res").value=n1+n2
+           // document.getElementById("res").setAttribute(r)
+
+        }
+       // function getName()
+        //{
+           // alert(document.getElementById("uname").value)
+        //}
+    </script>
+</body>
+</html>
